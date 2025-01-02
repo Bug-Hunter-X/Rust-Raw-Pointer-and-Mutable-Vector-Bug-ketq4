@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when working with raw pointers and mutable vectors.  The `bug.rs` file contains code that attempts to modify a vector through a raw pointer after other operations on the vector. This can lead to unexpected behavior or memory errors. The `bugSolution.rs` file provides a corrected version of the code that avoids these issues.
